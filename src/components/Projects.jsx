@@ -1,4 +1,10 @@
 import React from 'react'
+import Finance_Tracker from '../assets/Finance-Tracker.png'
+import MRS from '../assets/MRS.png'
+import portfolio from '../assets/portfolio.png'
+import ChatApp from '../assets/ChatApp.png'
+import TTT from '../assets/Tic-Tac-Toe.png'
+import crop_production from '../assets/crop-production.png'
 
 const ProjectCard = ({image, title, github}) => (
     <div className="p-4 md:w-1/3 mb-6">
@@ -18,14 +24,14 @@ const ProjectCard = ({image, title, github}) => (
 
 function Projects() {
     const projects = [
-        {title:'Finance-Tracker', image: "src/assets/finace-tracker.png", github: 'https://github.com/Abhu0407/Finance-Tracker.git' },
-        {title:'Movie-Recommendation-System', image: "src/assets/MRS.png", github: 'https://github.com/Abhu0407/Movie-Recommendation-System.git' },
+        {title:'Finance-Tracker', image: {Finance_Tracker}, github: 'https://github.com/Abhu0407/Finance-Tracker.git' },
+        {title:'Movie-Recommendation-System', image: {MRS}, github: 'https://github.com/Abhu0407/Movie-Recommendation-System.git' },
         // {title:'Object-Detection', image: 3, github: '' },
-        {title:'Portfolio', image: "src/assets/portfolio.png", github: 'https://github.com/Abhu0407/Portfolio.git' },
+        {title:'Portfolio', image: {portfolio}, github: 'https://github.com/Abhu0407/Portfolio.git' },
         // {title:'Ecommerce', image: 5, github: '' },
-        {title:'Chat App', image: "src/assets/ChatApp.png", github: 'https://github.com/Abhu0407/chat-app.git' },
-        {title:'Tic-Tac-Toe', image: "src/assets/Tic-Tac-Toe.png", github: 'https://github.com/Abhu0407/Tic-Tac-Toe.git' },
-        {title:'crop-production', image: "src/assets/crop-production.png", github: 'https://github.com/Abhu0407/crop-production.git' },
+        {title:'Chat App', image: {ChatApp}, github: 'https://github.com/Abhu0407/chat-app.git' },
+        {title:'Tic-Tac-Toe', image: {TTT}, github: 'https://github.com/Abhu0407/Tic-Tac-Toe.git' },
+        {title:'crop-production', image: {crop_production}, github: 'https://github.com/Abhu0407/crop-production.git' },
         
     ];
   return (
