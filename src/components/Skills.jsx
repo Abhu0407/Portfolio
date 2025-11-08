@@ -1,5 +1,5 @@
 import React from 'react'
-
+import S1 from '../assets/Skill1.png'
 function Skills() {
     return (
         <div>
@@ -18,7 +18,7 @@ function Skills() {
                     >
                         {/* Main Large Image */}
                         <img
-                            src='../assets/Skill1.png'
+                            src={S1}
                             alt="Full Stack Development"
                             className="w-full h-60 object-cover rounded-lg sm:h-52 sm:col-span-2 lg:col-span-full"
                             loading="lazy"
