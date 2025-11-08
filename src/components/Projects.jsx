@@ -24,14 +24,14 @@ const ProjectCard = ({image, title, github}) => (
 
 function Projects() {
     const projects = [
-        {title:'Finance-Tracker', image: {ft}, github: 'https://github.com/Abhu0407/Finance-Tracker.git' },
-        {title:'Movie-Recommendation-System', image: {mrs}, github: 'https://github.com/Abhu0407/Movie-Recommendation-System.git' },
+        {title:'Finance-Tracker', image: ft, github: 'https://github.com/Abhu0407/Finance-Tracker.git' },
+        {title:'Movie-Recommendation-System', image: mrs, github: 'https://github.com/Abhu0407/Movie-Recommendation-System.git' },
         // {title:'Object-Detection', image: 3, github: '' },
-        {title:'Portfolio', image: {portfolio}, github: 'https://github.com/Abhu0407/Portfolio.git' },
+        {title:'Portfolio', image: portfolio, github: 'https://github.com/Abhu0407/Portfolio.git' },
         // {title:'Ecommerce', image: 5, github: '' },
-        {title:'Chat App', image: {chatapp}, github: 'https://github.com/Abhu0407/chat-app.git' },
-        {title:'Tic-Tac-Toe', image: {ttt}, github: 'https://github.com/Abhu0407/Tic-Tac-Toe.git' },
-        {title:'crop-production', image: {crop_production}, github: 'https://github.com/Abhu0407/crop-production.git' },
+        {title:'Chat App', image: chatapp, github: 'https://github.com/Abhu0407/chat-app.git' },
+        {title:'Tic-Tac-Toe', image: ttt, github: 'https://github.com/Abhu0407/Tic-Tac-Toe.git' },
+        {title:'crop-production', image: crop_production, github: 'https://github.com/Abhu0407/crop-production.git' },
         
     ];
   return (
