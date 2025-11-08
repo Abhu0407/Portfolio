@@ -1,5 +1,7 @@
 import React from 'react'
 import S1 from '../assets/Skill1.jpg'
+import S2 from '../assets/Skill2.png'
+import S3 from '../assets/Skill3.jpg'
 function Skills() {
     return (
         <div>
@@ -26,7 +28,7 @@ function Skills() {
 
                         {/* Backend / API Architecture Image */}
                         <img
-                            src="src/assets/Skill2.png"
+                            src={S2}
                             alt="Backend Architecture"
                             className="hidden w-full h-32 object-cover rounded-lg sm:block sm:col-span-2 md:col-span-1 lg:row-start-2 lg:col-span-2"
                             loading="lazy"
@@ -34,7 +36,7 @@ function Skills() {
 
                         {/* Machine Learning Image */}
                         <img
-                            src="src/assets/Skill3.jpg"
+                            src={S3}
                             alt="Machine Learning"
                             className="hidden w-full h-32 object-cover rounded-lg md:block lg:row-start-2 lg:col-span-2"
                             loading="lazy"
