@@ -1,5 +1,5 @@
 import React from 'react'
-import Finance_Tracker from '../assets/finance-tracker.png'
+import Finance_Tracker from '../assets/finace-tracker.png'
 import MRS from '../assets/MRS.png'
 import portfolio from '../assets/portfolio.png'
 import ChatApp from '../assets/ChatApp.png'
