@@ -1,9 +1,9 @@
 import React from 'react'
-import Finance_Tracker from '../assets/finace-tracker.png'
-import MRS from '../assets/MRS.png'
+import ft from '../assets/finace-tracker.png'
+import mrs from '../assets/MRS.png'
 import portfolio from '../assets/portfolio.png'
-import ChatApp from '../assets/ChatApp.png'
-import TTT from '../assets/Tic-Tac-Toe.png'
+import chatapp from '../assets/ChatApp.png'
+import ttt from '../assets/Tic-Tac-Toe.png'
 import crop_production from '../assets/crop-production.png'
 
 const ProjectCard = ({image, title, github}) => (
@@ -24,13 +24,13 @@ const ProjectCard = ({image, title, github}) => (
 
 function Projects() {
     const projects = [
-        {title:'Finance-Tracker', image: {Finance_Tracker}, github: 'https://github.com/Abhu0407/Finance-Tracker.git' },
-        {title:'Movie-Recommendation-System', image: {MRS}, github: 'https://github.com/Abhu0407/Movie-Recommendation-System.git' },
+        {title:'Finance-Tracker', image: {ft}, github: 'https://github.com/Abhu0407/Finance-Tracker.git' },
+        {title:'Movie-Recommendation-System', image: {mrs}, github: 'https://github.com/Abhu0407/Movie-Recommendation-System.git' },
         // {title:'Object-Detection', image: 3, github: '' },
         {title:'Portfolio', image: {portfolio}, github: 'https://github.com/Abhu0407/Portfolio.git' },
         // {title:'Ecommerce', image: 5, github: '' },
-        {title:'Chat App', image: {ChatApp}, github: 'https://github.com/Abhu0407/chat-app.git' },
-        {title:'Tic-Tac-Toe', image: {TTT}, github: 'https://github.com/Abhu0407/Tic-Tac-Toe.git' },
+        {title:'Chat App', image: {chatapp}, github: 'https://github.com/Abhu0407/chat-app.git' },
+        {title:'Tic-Tac-Toe', image: {ttt}, github: 'https://github.com/Abhu0407/Tic-Tac-Toe.git' },
         {title:'crop-production', image: {crop_production}, github: 'https://github.com/Abhu0407/crop-production.git' },
         
     ];
