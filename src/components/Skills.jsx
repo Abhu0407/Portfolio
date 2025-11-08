@@ -18,7 +18,7 @@ function Skills() {
                     >
                         {/* Main Large Image */}
                         <img
-                            src={Skill1}
+                            src='../assets/Skill1.png'
                             alt="Full Stack Development"
                             className="w-full h-60 object-cover rounded-lg sm:h-52 sm:col-span-2 lg:col-span-full"
                             loading="lazy"
