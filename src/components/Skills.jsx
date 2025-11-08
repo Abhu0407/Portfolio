@@ -1,5 +1,5 @@
 import React from 'react'
-import S1 from '../assets/Skill1.png'
+import S1 from '../assets/Skill1.jpg'
 function Skills() {
     return (
         <div>
